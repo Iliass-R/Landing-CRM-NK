@@ -1,15 +1,22 @@
+/* Import Open Sans font and  use it by default */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
   width: 100%;
   height: 100vh;
   background: #ecebec;
-  font-family: "Open San", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 110%;
+  display: flex;
 }
 
 /* nav */
@@ -63,10 +70,18 @@
   font-weight: 400;
   font-size: 80px;
   padding: 0.4em 0;
+  
+}
+.title {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 2em;
 }
 
 .product-title {
   font-size: 30px;
+  width: 60%;
 }
 
 .product-title span {
@@ -246,7 +261,7 @@
 }
 
 .view {
-  padding: 2em 4em;
+  padding: 1em 2em;
 }
 
 .product-description img {
@@ -266,4 +281,14 @@
 
 .sketch-img img{
   height: 80%;
+}
+
+
+.background-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
