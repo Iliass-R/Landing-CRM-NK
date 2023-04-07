@@ -61,7 +61,7 @@
 
 .product-title h1 {
   font-weight: 400;
-  font-size: 100px;
+  font-size: 80px;
   padding: 0.4em 0;
 }
 
@@ -81,7 +81,13 @@
   width: 600px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1394px) {
+  .product-title h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+}
+@media (max-width: 1121px) {
   .product-hero p {
     width: 100%;
     font-size: 20px;
